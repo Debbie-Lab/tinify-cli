@@ -1,8 +1,11 @@
 {
   "name": "@app-proto/tinify-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": " images(Png/Jpg) compression using the tinify API",
   "main": "index.js",
+  "bin": {
+    "tinify": "./bin/cli.js"
+  },
   "repository": "git@github.com:Debbie-Lab/tinify-cli.git",
   "author": "掬一捧 solome <iliyang.cn@gmail.com>",
   "license": "MIT",
